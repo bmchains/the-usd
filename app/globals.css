@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theusd: 34 197 94;
+}
+
+@layer utilities {
+  .text-theusd { color: rgb(var(--theusd)); }
+  .bg-theusd { background-color: rgb(var(--theusd)); }
+  .bg-theusd\/15 { background-color: rgb(var(--theusd) / 0.15); }
+  .bg-theusd\/20 { background-color: rgb(var(--theusd) / 0.2); }
+  .bg-theusd\/70 { background-color: rgb(var(--theusd) / 0.7); }
+  .ring-theusd\/25 { --tw-ring-color: rgb(var(--theusd) / 0.25); }
+}
